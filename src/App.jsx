@@ -6,6 +6,7 @@ import ExperiencePage from './components/ExperiencePage';
 import ContactPage from './components/ContactPage';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import BestRatedPlanets from './components/BestRatedPlanets';
 import GlobalStyle from './GlobalStyle';
 import SApp from './SApp';
 
@@ -25,6 +26,7 @@ export default function App() {
           <Route exact path="/experience" component={ExperiencePage} />
           <Route exact path="/contact-us" component={ContactPage} />
         </Switch>
+        <BestRatedPlanets />
       </main>
       <Footer />
     </SApp>

@@ -11,7 +11,40 @@ const SHeader = styled.header`
   height: 100px;
   padding: 0 20px;
 
-  nav {
+  .link-logo {
+    .logo {
+      width: 183px;
+      height: 65px;
+      fill: #fff;
+
+      &:hover {
+        fill: #b3b6d6;
+      }
+    }
+  }
+
+  .navBar {
+    position: relative;
+
+    .searchbar {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      border-radius: 16px;
+      border: 2px solid #212121;
+      padding: 0 20px;
+      font-size: 18px;
+      font-weight: 400;
+
+      &.hide {
+        display: none;
+      }
+
+      &:focus {
+        outline: none;
+      }
+    }
+
     .nav-list {
       display: flex;
       align-items: center;
@@ -28,7 +61,25 @@ const SHeader = styled.header`
         }
 
         &.search {
+          position: relative;
+          top: 3px;
           margin: 0 20px 0 40px;
+          z-index: 1;
+
+          .button-search {
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+
+            &:hover .icon-search {
+              stroke: #b3b6d6;
+            }
+
+            .icon-search {
+              width: 26px;
+              height: 26px;
+            }
+          }
         }
 
         .navlink {

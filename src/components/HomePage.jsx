@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import PropTypes from 'prop-types';
 import SHomePage from './styled/SHomePage';
+import BestRatedPlanets from './BestRatedPlanets';
 
 export default function HomePage({ setHeaderWhite }) {
   const handleScroll = () => {
@@ -39,6 +40,7 @@ export default function HomePage({ setHeaderWhite }) {
           </p>
         </div>
       </div>
+      <BestRatedPlanets />
     </SHomePage>
   );
 }

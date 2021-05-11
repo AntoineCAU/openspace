@@ -1,15 +1,16 @@
 import { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
+import PropTypes from 'prop-types';
 import SHeader from './styled/SHeader';
 
-export default function Header() {
+export default function Header({ headerWhite }) {
   const [searchActive, setSearchActive] = useState(false);
 
   return (
-    <SHeader>
+    <SHeader className={headerWhite ? 'white' : 'transparent'}>
       <Link to="/" className="link-logo">
         <svg
-          className="logo"
+          className={`logo ${headerWhite ? 'black' : ''}`}
           viewBox="0 0 183 65"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -34,10 +35,12 @@ export default function Header() {
       <nav className="navBar">
         <input
           type="text"
-          className={`searchbar ${searchActive ? '' : 'hide'}`}
+          className={`searchbar ${searchActive ? '' : 'hide'} ${
+            headerWhite ? 'border-black' : ''
+          }`}
           placeholder="search your planet here"
         />
-        <ul className="nav-list">
+        <ul className={`nav-list ${headerWhite ? 'colorBlack' : ''}`}>
           <li className="nav-item destinations">
             <NavLink
               to="/destinations"
@@ -74,10 +77,11 @@ export default function Header() {
               }}
             >
               <svg
-                className="icon-search"
+                className={`icon-search ${searchActive && 'black'} ${
+                  headerWhite && 'black'
+                }`}
                 viewBox="0 0 37 36"
                 fill="none"
-                stroke={searchActive ? '#212121' : '#fff'}
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <circle cx="15.0441" cy="15.0441" r="12.5441" strokeWidth="5" />
@@ -96,3 +100,7 @@ export default function Header() {
     </SHeader>
   );
 }
+
+Header.propTypes = {
+  headerWhite: PropTypes.bool.isRequired,
+};

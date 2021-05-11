@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { Switch, Route } from 'react-router-dom';
 import HomePage from './components/HomePage';
 import DestinationsPage from './components/DestinationsPage';
@@ -10,19 +11,23 @@ import GlobalStyle from './GlobalStyle';
 import SApp from './SApp';
 
 export default function App() {
+  const [headerWhite, setHeaderWhite] = useState(true);
+
   return (
     <SApp>
       <GlobalStyle />
-      <Header />
       <main>
         <Switch>
-          <Route exact path="/" component={HomePage} />
+          <Route exact path="/">
+            <HomePage setHeaderWhite={setHeaderWhite} />
+          </Route>
           <Route exact path="/destinations" component={DestinationsPage} />
           <Route exact path="/experience" component={ExperiencePage} />
           <Route exact path="/contact-us" component={ContactPage} />
           <Route path="/planet/:name" component={Planet} />
         </Switch>
       </main>
+      <Header headerWhite={headerWhite} />
       <Footer />
     </SApp>
   );

@@ -1,6 +1,28 @@
+import { useEffect, useState } from 'react';
+import PropTypes from 'prop-types';
 import SHomePage from './styled/SHomePage';
 
-export default function HomePage() {
+export default function HomePage({ setHeaderWhite }) {
+  const [prevScroll, setPrevScroll] = useState(window.pageYOffset);
+
+  const handleScroll = () => {
+    const currScroll = window.pageYOffset;
+    console.log('prevScroll', prevScroll);
+    console.log('currScroll', currScroll);
+    setHeaderWhite(prevScroll > currScroll);
+    setPrevScroll(currScroll);
+  };
+
+  useEffect(() => {
+    setHeaderWhite(false);
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      setHeaderWhite(true);
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
     <SHomePage>
       <div className="homepage-header">
@@ -21,3 +43,7 @@ export default function HomePage() {
     </SHomePage>
   );
 }
+
+HomePage.propTypes = {
+  setHeaderWhite: PropTypes.func.isRequired,
+};

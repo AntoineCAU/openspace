@@ -1,12 +1,13 @@
 import { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
+import PropTypes from 'prop-types';
 import SHeader from './styled/SHeader';
 
-export default function Header() {
+export default function Header({ headerWhite }) {
   const [searchActive, setSearchActive] = useState(false);
 
   return (
-    <SHeader>
+    <SHeader className={headerWhite ? 'white' : 'transparent'}>
       <Link to="/" className="link-logo">
         <svg
           className="logo"
@@ -96,3 +97,7 @@ export default function Header() {
     </SHeader>
   );
 }
+
+Header.propTypes = {
+  headerWhite: PropTypes.bool.isRequired,
+};

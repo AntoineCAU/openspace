@@ -11,6 +11,10 @@ const SHeader = styled.header`
   height: 100px;
   padding: 0 20px;
 
+  &.white {
+    background-color: #fff;
+  }
+
   .link-logo {
     .logo {
       width: 183px;
@@ -31,7 +35,7 @@ const SHeader = styled.header`
       width: 100%;
       height: 100%;
       border-radius: 16px;
-      border: 2px solid #212121;
+      border: none;
       padding: 0 20px;
       font-size: 18px;
       font-weight: 400;

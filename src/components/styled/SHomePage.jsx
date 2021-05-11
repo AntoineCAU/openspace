@@ -5,6 +5,22 @@ const SHomePage = styled.div`
     background-image: url('/img/univers.png');
     min-height: 500px;
     padding-top: 100px;
+
+    .description-container {
+      width: 80%;
+      margin: 0 10%;
+      color: #fff;
+
+      .title {
+        font-weight: 700;
+        font-size: 70px;
+      }
+
+      .descr {
+        font-weight: 400;
+        font-size: 20px;
+      }
+    }
   }
 `;
 

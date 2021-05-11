@@ -21,6 +21,8 @@ const SHomePage = styled.div`
       .descr {
         font-weight: 400;
         font-size: 20px;
+        border-left: 2px solid #fff;
+        padding-left: 20px;
       }
     }
   }

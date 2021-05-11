@@ -3,7 +3,9 @@ import styled from 'styled-components';
 const SHomePage = styled.div`
   .homepage-header {
     background-image: url('/img/univers.png');
-    min-height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 700px;
     padding-top: 100px;
 
     .description-container {

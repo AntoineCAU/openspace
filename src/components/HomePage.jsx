@@ -1,4 +1,5 @@
 import SHomePage from './styled/SHomePage';
+import BestRatedPlanets from './BestRatedPlanets';
 
 export default function HomePage() {
   return (
@@ -18,6 +19,7 @@ export default function HomePage() {
           </p>
         </div>
       </div>
+      <BestRatedPlanets />
     </SHomePage>
   );
 }

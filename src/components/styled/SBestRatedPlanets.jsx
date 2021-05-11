@@ -13,7 +13,9 @@ const SBestRatedPlanets = styled.div`
       border-radius: 15px;
       .planet-img {
         width: 100%;
-        border-radius: 12px;
+        border-radius: 12px 12px 0 0;
+      }
+      .planet-name {
       }
     }
   }

@@ -1,6 +1,7 @@
 import { Switch, Route } from 'react-router-dom';
 import HomePage from './components/HomePage';
 import DestinationsPage from './components/DestinationsPage';
+import ExperiencePage from './components/ExperiencePage';
 import ContactPage from './components/ContactPage';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -16,6 +17,7 @@ export default function App() {
         <Switch>
           <Route exact path="/" component={HomePage} />
           <Route exact path="/destinations" component={DestinationsPage} />
+          <Route exact path="/experience" component={ExperiencePage} />
           <Route exact path="/contact-us" component={ContactPage} />
         </Switch>
       </main>

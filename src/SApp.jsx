@@ -5,7 +5,6 @@ const SApp = styled.div`
   width: 100vw;
   min-height: 100vh;
   background-color: lightgreen;
-  padding-top: 100px;
 `;
 
 export default SApp;

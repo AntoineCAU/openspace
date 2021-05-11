@@ -1,11 +1,7 @@
-import SampleComponent from './components/SampleComponent';
-
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <SampleComponent />
+      <p>App</p>
     </div>
   );
 }
-
-export default App;

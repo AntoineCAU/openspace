@@ -18,12 +18,12 @@ const SFooter = styled.footer`
       list-style-type: none;
       .foot-item {
         padding: 10px 0;
-        margin: 15px;
+        margin: 10px;
         &.ressources {
           border-left: 1px solid #fff;
           border-right: 1px solid #fff;
           padding: 10px 15px;
-          margin: 0 15px;
+          margin: 10px 0%;
         }
         .footlink {
           text-decoration: none;

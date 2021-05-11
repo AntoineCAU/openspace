@@ -15,7 +15,6 @@ export default function App() {
   return (
     <SApp>
       <GlobalStyle />
-      <Header headerWhite={headerWhite} />
       <main>
         <Switch>
           <Route exact path="/">
@@ -26,6 +25,7 @@ export default function App() {
           <Route exact path="/contact-us" component={ContactPage} />
         </Switch>
       </main>
+      <Header headerWhite={headerWhite} />
       <Footer />
     </SApp>
   );

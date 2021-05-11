@@ -24,12 +24,12 @@ const SHeader = styled.header`
       fill: #fff;
       transition: 0.4s;
 
-      &.black {
-        fill: #000;
-      }
-
       &:hover {
         fill: #b3b6d6;
+      }
+
+      &.black {
+        fill: #000;
       }
     }
   }

@@ -2,8 +2,7 @@ import styled from 'styled-components';
 
 const SBestRatedPlanets = styled.div`
   .top-rated-title {
-    width: 975px;
-    margin: auto;
+    margin-left: 100px;
     padding-left: 20px;
     margin-top: 40px;
     border-left: 2px solid #0d1e40;
@@ -12,7 +11,8 @@ const SBestRatedPlanets = styled.div`
   .top-rated-planets {
     display: flex;
     justify-content: center;
-    margin: 10px 200px;
+    flex-wrap: wrap;
+    width: 100%;
     .planet-card {
       width: 300px;
       height: 400px;

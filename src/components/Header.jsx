@@ -35,7 +35,9 @@ export default function Header({ headerWhite }) {
       <nav className="navBar">
         <input
           type="text"
-          className={`searchbar ${searchActive ? '' : 'hide'}`}
+          className={`searchbar ${searchActive ? '' : 'hide'} ${
+            headerWhite ? 'border-black' : ''
+          }`}
           placeholder="search your planet here"
         />
         <ul className={`nav-list ${headerWhite ? 'colorBlack' : ''}`}>
@@ -75,10 +77,11 @@ export default function Header({ headerWhite }) {
               }}
             >
               <svg
-                className="icon-search"
+                className={`icon-search ${searchActive && 'black'} ${
+                  headerWhite && 'black'
+                }`}
                 viewBox="0 0 37 36"
                 fill="none"
-                stroke={searchActive ? '#212121' : '#fff'}
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <circle cx="15.0441" cy="15.0441" r="12.5441" strokeWidth="5" />

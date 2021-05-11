@@ -47,6 +47,9 @@ const SHeader = styled.header`
       font-size: 18px;
       font-weight: 400;
 
+      &.border-black {
+        border: 2px solid #000;
+      }
       &.hide {
         display: none;
       }
@@ -94,6 +97,11 @@ const SHeader = styled.header`
             .icon-search {
               width: 26px;
               height: 26px;
+              stroke: #fff;
+
+              &.black {
+                stroke: #000;
+              }
             }
           }
         }

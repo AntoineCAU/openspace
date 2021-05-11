@@ -1,21 +1,20 @@
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import PropTypes from 'prop-types';
 import SHomePage from './styled/SHomePage';
 
 export default function HomePage({ setHeaderWhite }) {
-  const [prevScroll, setPrevScroll] = useState(window.pageYOffset);
-
   const handleScroll = () => {
     const currScroll = window.pageYOffset;
-    console.log('prevScroll', prevScroll);
-    console.log('currScroll', currScroll);
-    setHeaderWhite(prevScroll > currScroll);
-    setPrevScroll(currScroll);
+    if (currScroll > 50) {
+      setHeaderWhite(true);
+    } else {
+      setHeaderWhite(false);
+    }
   };
 
   useEffect(() => {
-    setHeaderWhite(false);
     window.addEventListener('scroll', handleScroll);
+    setHeaderWhite(false);
 
     return () => {
       setHeaderWhite(true);

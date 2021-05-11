@@ -10,7 +10,7 @@ export default function Header({ headerWhite }) {
     <SHeader className={headerWhite ? 'white' : 'transparent'}>
       <Link to="/" className="link-logo">
         <svg
-          className="logo"
+          className={`logo ${headerWhite ? 'black' : ''}`}
           viewBox="0 0 183 65"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -38,7 +38,7 @@ export default function Header({ headerWhite }) {
           className={`searchbar ${searchActive ? '' : 'hide'}`}
           placeholder="search your planet here"
         />
-        <ul className="nav-list">
+        <ul className={`nav-list ${headerWhite ? 'colorBlack' : ''}`}>
           <li className="nav-item destinations">
             <NavLink
               to="/destinations"

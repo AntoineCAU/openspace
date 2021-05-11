@@ -28,7 +28,7 @@ const SHeader = styled.header`
         }
 
         &.search {
-          margin: 0 30px 0 50px;
+          margin: 0 20px 0 40px;
         }
 
         .navlink {

@@ -39,8 +39,8 @@ export default function Header() {
           <li className="nav-item search">
             <svg
               className="icon-search"
-              width="37"
-              height="36"
+              width="28"
+              height="28"
               viewBox="0 0 37 36"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"

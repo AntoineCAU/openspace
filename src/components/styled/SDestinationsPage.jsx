@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const SDestinations = styled.div`
-  margin-top: 120px;
+  margin-top: 140px;
 
   .title {
     margin-left: 5%;
@@ -21,15 +21,15 @@ const SDestinations = styled.div`
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 3% 0;
+    margin: 4% 0;
     
   }
 
   .planet {
-    width: 500px;
+    width: 400px;
     margin: 1%;
     position: relative;
-    height: 600px;
+    height: 500px;
     overflow: hidden;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.26);
     border-radius: 20px;

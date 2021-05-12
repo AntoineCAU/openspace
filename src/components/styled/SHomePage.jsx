@@ -27,6 +27,10 @@ const SHomePage = styled.div`
         input {
           border: none;
           border-bottom: 1px solid #000;
+
+          &:focus {
+            outline: none;
+          }
         }
       }
       .setDate {
@@ -41,6 +45,10 @@ const SHomePage = styled.div`
           .inputDate {
             border: none;
             border-bottom: 1px solid #000;
+
+            &:focus {
+              outline: none;
+            }
           }
         }
       }

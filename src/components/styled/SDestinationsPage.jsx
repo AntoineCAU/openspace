@@ -56,6 +56,11 @@ const SDestinations = styled.div`
       .discover:hover {
         color: #c9c9c9;
       }
+      .title-discover {
+        font-size: 2em;
+        text-decoration: none;
+        color: #fff;
+      }
     }
   }
   .planet:hover {

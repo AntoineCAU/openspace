@@ -48,7 +48,7 @@ const SHomePage = styled.div`
         display: flex;
         text-align: center;
         .incr {
-          margin: 0 8%;
+          margin: 0 30%;
         }
         button {
           border: none;

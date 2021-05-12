@@ -49,7 +49,7 @@ export default function DestinationsPage() {
             <img src="/img/earth.png" alt="" />
             <div className="text">
               <h3>Earth</h3>
-              <Link to="/planet/venus" className="discover">
+              <Link to="/planet/earth" className="discover">
                 Discover
               </Link>
             </div>

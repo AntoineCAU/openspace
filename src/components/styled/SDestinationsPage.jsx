@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const SDestinations = styled.div`
-  margin-top: 120px;
+  margin-top: 150px;
 
   .title {
     margin-left: 5%;

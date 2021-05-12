@@ -65,7 +65,7 @@ const Planet = () => {
               </li>
             </ul>
             <a
-              href="www.google.com"
+              href="#scroll-comments"
               className="comments-link"
             >{`${infos.comments.length} Comments - See details`}</a>
           </div>
@@ -87,7 +87,7 @@ const Planet = () => {
               })}
             </ul>
           </div>
-          <div className="comments">
+          <div className="comments" id="scroll-comments">
             <h1>Comments</h1>
             <ul className="comments-list">
               {infos.comments.map((comment) => {

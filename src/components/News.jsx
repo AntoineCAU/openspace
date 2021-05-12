@@ -5,7 +5,6 @@ function News({ title, imageUrl }) {
     <li className="news-card">
       <img className="news-img" src={imageUrl} alt="" />
       <h2 className="news-title">{title}.</h2>
-      {/* <p className="news-date">Published at : {publishedAt} </p> */}
     </li>
   );
 }
@@ -14,5 +13,4 @@ export default News;
 News.propTypes = {
   title: PropTypes.string.isRequired,
   imageUrl: PropTypes.string.isRequired,
-  // publishedAt: PropTypes.string.isRequired,
 };

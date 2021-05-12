@@ -73,9 +73,8 @@ const SHeader = styled.header`
       .nav-item {
         padding: 10px 0;
 
-        &.experience {
+        &.contact {
           border-left: 1px solid;
-          border-right: 1px solid;
           padding: 10px 15px;
           margin: 0 15px;
         }

@@ -1,15 +1,28 @@
 import { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, useLocation } from 'react-router-dom';
 import SPlanet from './styled/SPlanet';
 import planets from '../planets.json';
 
 const Planet = () => {
+  const location = useLocation();
   const { name } = useParams();
   const [infos, setInfos] = useState(undefined);
 
   useEffect(() => {
     setInfos(planets[name]);
   }, [name]);
+
+  const [departure, setDeparture] = useState('');
+  const [returnal, setReturnal] = useState('');
+  const [numberPass, setNumberPass] = useState(0);
+
+  useEffect(() => {
+    if (location.state) {
+      setDeparture(location.state.infoTrip[1]);
+      setReturnal(location.state.infoTrip[2]);
+      setNumberPass(location.state.infoTrip[3]);
+    }
+  }, []);
 
   return (
     <SPlanet>
@@ -87,9 +100,58 @@ const Planet = () => {
               })}
             </ul>
           </div>
+
           <div className="plan-about-container">
             <div className="plan-trip">
               <h1>Plan your trip</h1>
+              <div className="options-container">
+                <div className="setDate">
+                  <div className="date">
+                    <h2>From</h2>
+                    <input
+                      type="date"
+                      className="inputDate"
+                      value={departure}
+                      onChange={(e) => setDeparture(e.target.value)}
+                    />
+                  </div>
+                  <div className="date">
+                    <h2>To</h2>
+                    <input
+                      type="date"
+                      className="inputDate"
+                      value={returnal}
+                      onChange={(e) => setReturnal(e.target.value)}
+                    />
+                  </div>
+                </div>
+
+                <div className="passenger">
+                  <h2>Passengers</h2>
+                  <div className="increment">
+                    {numberPass > 0 && (
+                      <button
+                        type="button"
+                        onClick={() => {
+                          setNumberPass(numberPass - 1);
+                        }}
+                      >
+                        -
+                      </button>
+                    )}
+                    {numberPass === 0 && <p>-</p>}
+                    <p className="incr">{numberPass}</p>
+                    <button
+                      type="button"
+                      onClick={() => {
+                        setNumberPass(numberPass + 1);
+                      }}
+                    >
+                      +
+                    </button>
+                  </div>
+                </div>
+              </div>
             </div>
             <div className="about">
               <h1>About</h1>

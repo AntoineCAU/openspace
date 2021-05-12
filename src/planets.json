@@ -1,6 +1,6 @@
 {
   "sun": {
-    "name": "Sun",
+    "name": "The Sun",
     "id": 1,
     "rating": 1,
     "comments": [
@@ -34,7 +34,6 @@
     "official_artwork": "/img/sun.jpg",
     "images_url": [
       "https://fac.img.pmdstatic.net/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2FFAC.2Fvar.2Ffemmeactuelle.2Fstorage.2Fimages.2Fhoroscope2.2Fvos-previsions-astro.2Fhoroscope-portrait-soleil-astrologie-52316.2F15044086-1-fre-FR.2Fhoroscope-portrait-du-soleil-en-astrologie.2Ejpg/1200x1200/quality/80/crop-from/center/horoscope-portrait-du-soleil-en-astrologie.jpeg",
-      "https://resize.programme-television.ladmedia.fr/rcrop/1200,/img/var/premiere/storage/images/tele-7-jours/news-tv/non-le-bebe-soleil-des-teletubbies-n-a-pas-eu-de-bebe-4643630/95608730-1-fre-FR/Non-le-bebe-soleil-des-Teletubbies-n-a-pas-eu-de-bebe.jpg",
       "https://static.teteamodeler.com/media/cache/thumb_400/le-soleil-le-soleil-est-notre-etoile.jpeg"
     ]
   },

@@ -1,5 +1,6 @@
 // import SContactPage from './styled/SContactPage';
 import React, { useState } from 'react';
+import ScrollToTopOnMount from './ScrollToTopOnMount';
 import SContactPage from './styled/SContactPage';
 
 const ContactPage = () => {
@@ -90,6 +91,7 @@ const ContactPage = () => {
 
   return (
     <SContactPage>
+      <ScrollToTopOnMount />
       <form className="contact-form">
         <h2>Contactez-nous</h2>
         <div className="form-content">

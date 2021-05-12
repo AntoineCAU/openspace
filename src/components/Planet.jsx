@@ -87,6 +87,20 @@ const Planet = () => {
               })}
             </ul>
           </div>
+          <div className="plan-about-container">
+            <div className="plan-trip">
+              <h1>Plan your trip</h1>
+            </div>
+            <div className="about">
+              <h1>About</h1>
+              <ul>
+                <li>{`Distance: ${infos.about.distance}`}</li>
+                <li>{`Weather: ${infos.about.weather}`}</li>
+                <li>{`Gravity: ${infos.about.gravity}`}</li>
+                <li>{`Diamètre: ${infos.about.diametre}`}</li>
+              </ul>
+            </div>
+          </div>
           <div className="comments" id="scroll-comments">
             <h1>Comments</h1>
             <ul className="comments-list">
@@ -109,7 +123,7 @@ const Planet = () => {
           </div>
         </>
       ) : (
-        <p>Planet not found</p>
+        <h1 className="not-valid">Enter a valid planet please !</h1>
       )}
     </SPlanet>
   );

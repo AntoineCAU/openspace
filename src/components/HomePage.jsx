@@ -97,7 +97,7 @@ export default function HomePage({ setHeaderWhite }) {
               </button>
             </div>
           </div>
-          {infoTrip.length === 4 && infoTrip[3] !== 0 && (
+          {/* {infoTrip.length === 4 && infoTrip[3] !== 0 && (
             <Link
               to={{
                 pathname: `/planet/${infoTrip[0]}`,
@@ -153,7 +153,37 @@ export default function HomePage({ setHeaderWhite }) {
                 strokeWidth="7"
               />
             </svg>
-          )}
+          )} */}
+          <Link
+            to={{
+              pathname: `/planet/${infoTrip[0]}`,
+              state: { infoTrip },
+            }}
+          >
+            <svg
+              width="38"
+              height="36"
+              viewBox="0 0 38 36"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle
+                cx="15.0441"
+                cy="15.0441"
+                r="11.5441"
+                stroke="black"
+                strokeWidth="7"
+              />
+              <line
+                x1="24.3131"
+                y1="22.2751"
+                x2="35.4749"
+                y2="33.4369"
+                stroke="black"
+                strokeWidth="7"
+              />
+            </svg>
+          </Link>
         </div>
         <div className="description-container">
           <h1 className="title">

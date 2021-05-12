@@ -63,6 +63,7 @@ const SPlanet = styled.div`
         height: 500px;
         object-fit: cover;
         border-radius: 10px;
+        box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.26);
       }
     }
 
@@ -79,6 +80,7 @@ const SPlanet = styled.div`
         height: 278px;
         border-radius: 10px;
         margin: 10px;
+        box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.26);
 
         img {
           width: 100%;
@@ -92,6 +94,7 @@ const SPlanet = styled.div`
 
   .comments {
     width: 100%;
+    padding: 0 20px;
 
     h1 {
       padding-left: 20px;
@@ -102,19 +105,39 @@ const SPlanet = styled.div`
 
     .comments-list {
       margin-top: 30px;
+      padding: 0 10%;
       list-style-type: none;
       width: 100%;
+      flex-wrap: wrap;
       display: flex;
+      justify-content: center;
 
       .comment-item {
-        /* display: flex; */
-        /* width: 800px; */
+        margin: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        width: 40%;
 
         .comment-avatar {
           width: 92px;
           height: 92px;
           object-fit: cover;
           border-radius: 50%;
+        }
+
+        div {
+          margin: 0 10px;
+
+          .comment-name {
+            font-size: 20px;
+            margin-bottom: 10px;
+            font-weight: 500;
+          }
+
+          .comment-content {
+            font-size: 18px;
+          }
         }
       }
     }

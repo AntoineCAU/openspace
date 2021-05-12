@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import SHomePage from './styled/SHomePage';
 import BestRatedPlanets from './BestRatedPlanets';
 import ScrollToTopOnMount from './ScrollToTopOnMount';
+import SpaceNews from './SpaceNews';
 
 export default function HomePage({ setHeaderWhite }) {
   const handleScroll = () => {
@@ -46,6 +47,7 @@ export default function HomePage({ setHeaderWhite }) {
         </div>
       </div>
       <BestRatedPlanets />
+      <SpaceNews />
     </SHomePage>
   );
 }

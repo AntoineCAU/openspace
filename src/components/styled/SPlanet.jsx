@@ -3,6 +3,7 @@ import styled from 'styled-components';
 const SPlanet = styled.div`
   padding: 100px 5% 0 5%;
   min-height: calc(100vh - 120px);
+
   .imgPlanet {
     width: 60vw;
     margin-left: auto;
@@ -95,11 +96,31 @@ const SPlanet = styled.div`
     margin-top: 60px;
 
     .plan-trip {
+      position: relative;
       width: 510px;
       height: 310px;
       box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
       border-radius: 20px;
       margin-top: 3%;
+
+      .send-button {
+        position: absolute;
+        width: 152px;
+        height: 47px;
+        right: 30px;
+        bottom: 30px;
+        background: #245ca6;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+        color: #fff;
+        font-weight: 500;
+        font-size: 20px;
+        cursor: pointer;
+
+        &:hover {
+          transform: translate(1px, 1px);
+        }
+      }
       h1 {
         padding: 20px 30px;
         color: #0d1e40;

@@ -155,6 +155,9 @@ const Planet = () => {
                   </div>
                 </div>
               </div>
+              <button type="button" className="send-button">
+                Send
+              </button>
             </div>
             <div className="about">
               <h1>About</h1>

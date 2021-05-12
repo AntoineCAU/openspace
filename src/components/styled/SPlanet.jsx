@@ -3,6 +3,11 @@ import styled from 'styled-components';
 const SPlanet = styled.div`
   padding: 100px 5% 0 5%;
   min-height: calc(100vh - 120px);
+  .imgPlanet {
+    width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
   .title-container {
     display: flex;
@@ -51,43 +56,33 @@ const SPlanet = styled.div`
   }
 
   .planet-images {
+    width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
-    padding: 20px 0;
 
     .image-official-container {
-      width: 40%;
-
       .image-official {
-        width: 500px;
-        height: 500px;
-        object-fit: cover;
-        border-radius: 10px;
+        border-radius: 20px;
         box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.26);
+        width: 400px;
+        height: 400px;
       }
     }
-
     .images-list {
       display: flex;
-      width: 60%;
       flex-wrap: wrap;
-      justify-content: flex-start;
-      align-items: flex-start;
-      list-style-type: none;
-
       .image-item {
-        width: 278px;
-        height: 278px;
-        border-radius: 10px;
-        margin: 10px;
-        box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.26);
+        list-style-type: none;
+        padding-left: 2%;
 
         img {
-          width: 100%;
-          height: 100%;
+          width: 200px;
+          height: 200px;
           object-fit: cover;
-          border-radius: 10px;
+          border-radius: 20px;
+          box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.26);
         }
       }
     }
@@ -104,10 +99,14 @@ const SPlanet = styled.div`
       height: 310px;
       box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
       border-radius: 20px;
-
+      margin-top: 3%;
       h1 {
         padding: 20px 30px;
         color: #0d1e40;
+      }
+      .passenger {
+        margin-top: 3%;
+        margin-left: 4%;
       }
     }
 
@@ -187,6 +186,42 @@ const SPlanet = styled.div`
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+  }
+
+  .options-container {
+    .setDate {
+      padding: 0 4%;
+      display: flex;
+
+      .date {
+        margin: 1%;
+
+        .inputDate {
+          border: none;
+          border-bottom: 1px solid #000;
+
+          &:focus {
+            outline: none;
+          }
+        }
+      }
+    }
+    .increment {
+      display: flex;
+      text-align: center;
+      margin-top: 5%;
+      .incr {
+        margin: 0 10%;
+      }
+      button {
+        border: none;
+        background-color: #fff;
+        font-size: 1.5em;
+      }
+      p {
+        font-size: 1.5em;
+      }
+    }
   }
 `;
 

@@ -11,6 +11,20 @@ const SSpaceNews = styled.ul`
   .space-news {
     display: flex;
     flex-wrap: wrap;
+    ul {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      .news-card {
+        width: 450px;
+        height: 300px;
+        margin: 10px;
+        .news-img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
   }
 `;
 

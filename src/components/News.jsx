@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 function News({ title, imageUrl, publishedAt }) {
   return (
     <li className="news-card">
-      <img src={imageUrl} alt="" />
+      <img className="news-img" src={imageUrl} alt="" />
       <h2>{title}</h2>
       <p>Published at :{publishedAt} </p>
     </li>

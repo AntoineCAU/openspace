@@ -15,6 +15,7 @@ const SHeader = styled.header`
   &.white {
     background-color: #fff;
     color: #212121;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.26);
   }
 
   .link-logo {

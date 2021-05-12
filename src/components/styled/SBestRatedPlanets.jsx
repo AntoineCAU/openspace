@@ -45,6 +45,10 @@ const SBestRatedPlanets = styled.div`
         left: 50%;
         transform: translateX(-50%);
         color: #ffff;
+        text-decoration: none;
+      }
+      .discover:hover {
+        color: #c9c9c9;
       }
     }
   }

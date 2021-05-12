@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import PropTypes from 'prop-types';
 import SHomePage from './styled/SHomePage';
 import BestRatedPlanets from './BestRatedPlanets';
+import ScrollToTopOnMount from './ScrollToTopOnMount';
 
 export default function HomePage({ setHeaderWhite }) {
   const handleScroll = () => {
@@ -25,8 +26,12 @@ export default function HomePage({ setHeaderWhite }) {
 
   return (
     <SHomePage>
+      <ScrollToTopOnMount />
       <div className="homepage-header">
-        <div className="options-container" />
+        <div className="options-container">
+          <h2>location</h2>
+          <input />
+        </div>
         <div className="description-container">
           <h1 className="title">Explore the space beyond Mars</h1>
           <p className="descr">

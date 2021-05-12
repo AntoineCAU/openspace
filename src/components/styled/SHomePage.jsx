@@ -7,12 +7,13 @@ const SHomePage = styled.div`
     background-size: cover;
     min-height: 700px;
     padding-top: 100px;
+    height: 100vh;
 
     .description-container {
       width: 80%;
       margin: 0 10%;
       color: #fff;
-
+      margin-top: 20%;
       .title {
         font-weight: 700;
         font-size: 70px;

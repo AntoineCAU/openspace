@@ -1,12 +1,14 @@
 import { Link } from 'react-router-dom';
 import SDestinations from './styled/SDestinationsPage';
 import Header from './Header';
+import ScrollToTopOnMount from './ScrollToTopOnMount';
 
 export default function DestinationsPage() {
   return (
     <>
       <Header />
       <SDestinations>
+        <ScrollToTopOnMount />
         <div className="title">
           <h1>Destinations</h1>
           <h2>

@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 const SPlanet = styled.div`
   padding: 100px 5% 0 5%;
+  min-height: calc(100vh - 120px);
 
   .title-container {
     display: flex;
@@ -179,6 +180,13 @@ const SPlanet = styled.div`
         }
       }
     }
+  }
+
+  .not-valid {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 `;
 

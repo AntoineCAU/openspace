@@ -123,7 +123,7 @@ const Planet = () => {
           </div>
         </>
       ) : (
-        <p>Planet not found</p>
+        <h1 className="not-valid">Enter a valid planet please !</h1>
       )}
     </SPlanet>
   );

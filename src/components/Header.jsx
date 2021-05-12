@@ -1,9 +1,10 @@
 import { useState } from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import { Link, NavLink, useHistory } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import SHeader from './styled/SHeader';
 
 export default function Header({ headerWhite }) {
+  const history = useHistory();
   const [searchActive, setSearchActive] = useState(false);
 
   return (
@@ -39,6 +40,13 @@ export default function Header({ headerWhite }) {
             headerWhite ? 'border-black' : ''
           }`}
           placeholder="search your planet here"
+          onKeyDown={(e) => {
+            if (e.key === 'Enter') {
+              history.push(`/planet/${e.target.value.toLowerCase()}`);
+              setSearchActive(false);
+              e.target.value = '';
+            }
+          }}
         />
         <ul className={`nav-list ${headerWhite ? 'colorBlack' : ''}`}>
           <li className="nav-item destinations">

@@ -2,7 +2,7 @@
   "sun": {
     "name": "The Sun",
     "id": 1,
-    "rating": 1,
+    "rating": 5,
     "comments": [
       {
         "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVXi_ig_Dj1LvfGfr_MTIzMJ0qYqDEMoeQjQ&usqp=CAU",
@@ -40,7 +40,7 @@
   "mercury": {
     "name": "Mercury",
     "id": 2,
-    "rating": 5,
+    "rating": 3,
     "comments": [
       {
         "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVXi_ig_Dj1LvfGfr_MTIzMJ0qYqDEMoeQjQ&usqp=CAU",
@@ -78,7 +78,7 @@
   "venus": {
     "name": "Venus",
     "id": 3,
-    "rating": 3,
+    "rating": 2,
     "comments": [
       {
         "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVXi_ig_Dj1LvfGfr_MTIzMJ0qYqDEMoeQjQ&usqp=CAU",
@@ -115,7 +115,7 @@
   "earth": {
     "name": "Earth",
     "id": 4,
-    "rating": 3,
+    "rating": 5,
     "comments": [
       {
         "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVXi_ig_Dj1LvfGfr_MTIzMJ0qYqDEMoeQjQ&usqp=CAU",
@@ -192,7 +192,7 @@
   "jupiter": {
     "name": "Jupiter",
     "id": 6,
-    "rating": 5,
+    "rating": 3,
     "comments": [
       {
         "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVXi_ig_Dj1LvfGfr_MTIzMJ0qYqDEMoeQjQ&usqp=CAU",

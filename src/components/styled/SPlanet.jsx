@@ -89,6 +89,36 @@ const SPlanet = styled.div`
       }
     }
   }
+
+  .comments {
+    width: 100%;
+
+    h1 {
+      padding-left: 20px;
+      margin-top: 40px;
+      border-left: 2px solid #0d1e40;
+      color: #0d1e40;
+    }
+
+    .comments-list {
+      margin-top: 30px;
+      list-style-type: none;
+      width: 100%;
+      display: flex;
+
+      .comment-item {
+        /* display: flex; */
+        /* width: 800px; */
+
+        .comment-avatar {
+          width: 92px;
+          height: 92px;
+          object-fit: cover;
+          border-radius: 50%;
+        }
+      }
+    }
+  }
 `;
 
 export default SPlanet;

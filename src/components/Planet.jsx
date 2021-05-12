@@ -87,6 +87,26 @@ const Planet = () => {
               })}
             </ul>
           </div>
+          <div className="comments">
+            <h1>Comments</h1>
+            <ul className="comments-list">
+              {infos.comments.map((comment) => {
+                return (
+                  <li key={comment.name} className="comment-item">
+                    <img
+                      className="comment-avatar"
+                      src={comment.avatar}
+                      alt="avatar"
+                    />
+                    <div>
+                      <p className="comment-name">{comment.name}</p>
+                      <p className="comment-content">{comment.comment}</p>
+                    </div>
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
         </>
       ) : (
         <p>Planet not found</p>

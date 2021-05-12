@@ -5,19 +5,23 @@
     "rating": 1,
     "comments": [
       {
-        "name": "name",
+        "avatar": "https://images-na.ssl-images-amazon.com/images/I/91BLCCISDTL._AC_SL1500_.jpg",
+        "name": "totodu69",
         "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
       },
       {
-        "name": "name",
+        "avatar": "https://images-na.ssl-images-amazon.com/images/I/91BLCCISDTL._AC_SL1500_.jpg",
+        "name": "totodu32",
         "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
       },
       {
-        "name": "name",
+        "avatar": "https://images-na.ssl-images-amazon.com/images/I/91BLCCISDTL._AC_SL1500_.jpg",
+        "name": "totodu34",
         "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
       },
       {
-        "name": "name",
+        "avatar": "https://images-na.ssl-images-amazon.com/images/I/91BLCCISDTL._AC_SL1500_.jpg",
+        "name": "totodu76",
         "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
       }
     ],

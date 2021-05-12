@@ -13,7 +13,7 @@ const SDestinations = styled.div`
     font-size: 2em;
     border-left: 2px solid black;
     padding-left: 1%;
-    font-weight : 400;
+    font-weight: 400;
   }
 
   .planets {
@@ -22,7 +22,6 @@ const SDestinations = styled.div`
     flex-wrap: wrap;
     justify-content: center;
     margin: 3% 0;
-    
   }
 
   .planet {
@@ -36,7 +35,7 @@ const SDestinations = styled.div`
 
     img {
       border-radius: 20px;
-      
+
       width: 100%;
       height: 100%;
       object-fit: cover;
@@ -45,7 +44,7 @@ const SDestinations = styled.div`
       color: #fff;
       position: absolute;
       transform: translateY(-6em) translateX(2em);
-      transition : 0.5s ease-in-out;
+      transition: 0.5s ease-in-out;
       h3 {
         font-size: 5em;
       }
@@ -60,10 +59,10 @@ const SDestinations = styled.div`
     }
   }
   .planet:hover {
-      .text {
-        transform: translateY(-10em) translateX(2em);
-      }
-  
+    .text {
+      transform: translateY(-10em) translateX(2em);
+    }
+  }
 `;
 
 export default SDestinations;

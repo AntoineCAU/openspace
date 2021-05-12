@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import SBestRatedPlanets from './styled/SBestRatedPlanets';
 
 export default function Footer() {
@@ -8,17 +9,23 @@ export default function Footer() {
         <div className="planet-card">
           <img className="planet-img" src="/img/earth.png" alt="earth" />
           <article className="planet-name">Earth</article>
-          <p className="discover">Discover</p>
+          <Link to="/planet/earth" className="discover">
+            Discover
+          </Link>
         </div>
         <div className="planet-card">
           <img className="planet-img" src="/img/uranus.jpg" alt="uranus" />
           <article className="planet-name">Uranus</article>
-          <p className="discover">Discover</p>
+          <Link to="/planet/uranus" className="discover">
+            Discover
+          </Link>
         </div>
         <div className="planet-card">
           <img className="planet-img" src="/img/sun.jpg" alt="sun" />
           <article className="planet-name">The Sun</article>
-          <p className="discover">Discover</p>
+          <Link to="/planet/sun" className="discover">
+            Discover
+          </Link>
         </div>
       </div>
     </SBestRatedPlanets>

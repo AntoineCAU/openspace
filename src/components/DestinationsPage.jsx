@@ -23,6 +23,7 @@ export default function DestinationsPage() {
               <img src="/img/sun.jpg" alt="" />
               <div className="text">
                 <h3>The Sun</h3>
+                <p className="title-discover">Discover</p>
               </div>
             </Link>
           </div>
@@ -31,6 +32,7 @@ export default function DestinationsPage() {
               <img src="/img/mercury.jpg" alt="" />
               <div className="text">
                 <h3>Mercury</h3>
+                <p className="title-discover">Discover</p>
               </div>
             </Link>
           </div>
@@ -39,6 +41,7 @@ export default function DestinationsPage() {
               <img src="/img/venus.jpg" alt="" />
               <div className="text">
                 <h3>Venus</h3>
+                <p className="title-discover">Discover</p>
               </div>
             </Link>
           </div>
@@ -47,6 +50,7 @@ export default function DestinationsPage() {
               <img src="/img/earth.png" alt="" />
               <div className="text">
                 <h3>Earth</h3>
+                <p className="title-discover">Discover</p>
               </div>
             </Link>
           </div>
@@ -55,6 +59,7 @@ export default function DestinationsPage() {
               <img src="/img/mars.jpg" alt="" />
               <div className="text">
                 <h3>Mars</h3>
+                <p className="title-discover">Discover</p>
               </div>
             </Link>
           </div>
@@ -63,6 +68,7 @@ export default function DestinationsPage() {
               <img src="/img/jupiter.jpg" alt="" />
               <div className="text">
                 <h3>Jupiter</h3>
+                <p className="title-discover">Discover</p>
               </div>
             </Link>
           </div>
@@ -71,6 +77,7 @@ export default function DestinationsPage() {
               <img src="/img/saturn.jpg" alt="" className="saturnImg" />
               <div className="text">
                 <h3>Saturn</h3>
+                <p className="title-discover">Discover</p>
               </div>
             </Link>
           </div>
@@ -79,6 +86,7 @@ export default function DestinationsPage() {
               <img src="/img/uranus.jpg" alt="" />
               <div className="text">
                 <h3>Uranus</h3>
+                <p className="title-discover">Discover</p>
               </div>
             </Link>
           </div>
@@ -87,6 +95,7 @@ export default function DestinationsPage() {
               <img src="/img/neptune.jpg" alt="" />
               <div className="text">
                 <h3>Neptune</h3>
+                <p className="title-discover">Discover</p>
               </div>
             </Link>
           </div>

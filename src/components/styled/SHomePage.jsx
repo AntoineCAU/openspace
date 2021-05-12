@@ -48,7 +48,7 @@ const SHomePage = styled.div`
         display: flex;
         text-align: center;
         .incr {
-          margin: 0 8%;
+          margin: 0 30%;
         }
         button {
           border: none;
@@ -63,7 +63,7 @@ const SHomePage = styled.div`
 
     .description-container {
       width: 60vw;
-      margin: 15% 0%;
+      margin: 10% 0%;
       margin-left: auto;
       margin-right: auto;
       color: #fff;

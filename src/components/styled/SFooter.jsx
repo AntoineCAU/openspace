@@ -19,11 +19,9 @@ const SFooter = styled.footer`
       .foot-item {
         padding: 10px 0;
         margin: 10px;
-        &.ressources {
-          border-left: 1px solid #fff;
-          border-right: 1px solid #fff;
-          padding: 10px 15px;
-          margin: 10px 0%;
+        .about {
+          border-right: white 2px solid;
+          padding-right: 20px;
         }
         .footlink {
           text-decoration: none;

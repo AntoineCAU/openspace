@@ -58,15 +58,6 @@ export default function Header({ headerWhite }) {
               Destinations
             </NavLink>
           </li>
-          <li className="nav-item experience">
-            <NavLink
-              to="/experience"
-              className="navlink experience"
-              activeClassName="selected"
-            >
-              Experience
-            </NavLink>
-          </li>
           <li className="nav-item contact">
             <NavLink
               to="/contact-us"

@@ -15,15 +15,6 @@ export default function Footer() {
               About Us
             </NavLink>
           </li>
-          <li className="foot-item ressources">
-            <NavLink
-              to="/ressources"
-              className="footlink ressources"
-              activeClassName="selected"
-            >
-              Ressources
-            </NavLink>
-          </li>
           <li className="foot-item contact">
             <NavLink
               to="/contact-us"

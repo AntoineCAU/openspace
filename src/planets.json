@@ -22,12 +22,17 @@
       }
     ],
     "about": {
-      "Distance": "",
+      "Distance": "228 millions",
       "weather": "",
       "gravity": "",
       "dimension": ""
     },
-    "images_url": ["/img/sun.jpg"]
+    "official_artwork": "/img/sun.jpg",
+    "images_url": [
+      "https://fac.img.pmdstatic.net/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2FFAC.2Fvar.2Ffemmeactuelle.2Fstorage.2Fimages.2Fhoroscope2.2Fvos-previsions-astro.2Fhoroscope-portrait-soleil-astrologie-52316.2F15044086-1-fre-FR.2Fhoroscope-portrait-du-soleil-en-astrologie.2Ejpg/1200x1200/quality/80/crop-from/center/horoscope-portrait-du-soleil-en-astrologie.jpeg",
+      "https://resize.programme-television.ladmedia.fr/rcrop/1200,/img/var/premiere/storage/images/tele-7-jours/news-tv/non-le-bebe-soleil-des-teletubbies-n-a-pas-eu-de-bebe-4643630/95608730-1-fre-FR/Non-le-bebe-soleil-des-Teletubbies-n-a-pas-eu-de-bebe.jpg",
+      "https://static.teteamodeler.com/media/cache/thumb_400/le-soleil-le-soleil-est-notre-etoile.jpeg"
+    ]
   },
   "mercury": {
     "name": "Mercury",
@@ -52,12 +57,13 @@
       }
     ],
     "about": {
-      "Distance": "",
+      "Distance": "170 millions",
       "weather": "",
       "gravity": "",
       "dimension": ""
     },
-    "images_url": ["/img/mercury.jpg"]
+    "official_artwork": "/img/mercury.jpg",
+    "images_url": []
   },
   "venus": {
     "name": "Venus",
@@ -75,24 +81,21 @@
       {
         "name": "name",
         "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
-      },
-      {
-        "name": "name",
-        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
       }
     ],
     "about": {
-      "Distance": "",
+      "Distance": "120 millions",
       "weather": "",
       "gravity": "",
       "dimension": ""
     },
-    "images_url": ["/img/venus.jpg"]
+    "official_artwork": "/img/venus.jpg",
+    "images_url": []
   },
   "earth": {
     "name": "Earth",
     "id": 4,
-    "rating": 4,
+    "rating": 3,
     "comments": [
       {
         "name": "name",
@@ -101,23 +104,16 @@
       {
         "name": "name",
         "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
-      },
-      {
-        "name": "name",
-        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
-      },
-      {
-        "name": "name",
-        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
       }
     ],
     "about": {
-      "Distance": "",
+      "Distance": "78 millions",
       "weather": "",
       "gravity": "",
       "dimension": ""
     },
-    "images_url": ["/img/earth.png"]
+    "official_artwork": "/img/earth.png",
+    "images_url": []
   },
   "mars": {
     "name": "Mars",
@@ -147,7 +143,8 @@
       "gravity": "",
       "dimension": ""
     },
-    "images_url": ["/img/mars.jpg"]
+    "official_artwork": "/img/mars.jpg",
+    "images_url": []
   },
   "jupiter": {
     "name": "Jupiter",
@@ -157,27 +154,16 @@
       {
         "name": "name",
         "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
-      },
-      {
-        "name": "name",
-        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
-      },
-      {
-        "name": "name",
-        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
-      },
-      {
-        "name": "name",
-        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
       }
     ],
     "about": {
-      "Distance": "",
+      "Distance": "550 millions",
       "weather": "",
       "gravity": "",
       "dimension": ""
     },
-    "images_url": ["/img/jupiter.jpg"]
+    "official_artwork": "/img/jupiter.jpg",
+    "images_url": []
   },
   "saturn": {
     "name": "Saturn",
@@ -202,12 +188,13 @@
       }
     ],
     "about": {
-      "Distance": "",
+      "Distance": "1,199 milliards",
       "weather": "",
       "gravity": "",
       "dimension": ""
     },
-    "images_url": ["/img/saturn.jpg"]
+    "official_artwork": "/img/saturn.jpg",
+    "images_url": []
   },
   "uranus": {
     "name": "Uranus",
@@ -225,19 +212,16 @@
       {
         "name": "name",
         "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
-      },
-      {
-        "name": "name",
-        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
       }
     ],
     "about": {
-      "Distance": "",
+      "Distance": "2,641 milliards",
       "weather": "",
       "gravity": "",
       "dimension": ""
     },
-    "images_url": ["/img/uranus.jpg"]
+    "official_artwork": "/img/uranus.jpg",
+    "images_url": []
   },
   "neptune": {
     "name": "Neptune",
@@ -255,18 +239,15 @@
       {
         "name": "name",
         "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
-      },
-      {
-        "name": "name",
-        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
       }
     ],
     "about": {
-      "Distance": "",
+      "Distance": "4,269 milliards",
       "weather": "",
       "gravity": "",
       "dimension": ""
     },
-    "images_url": ["/img/neptune.jpg"]
+    "official_artwork": "/img/neptune.jpg",
+    "images_url": []
   }
 }

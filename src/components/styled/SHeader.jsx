@@ -10,15 +10,26 @@ const SHeader = styled.header`
   right: 0;
   height: 100px;
   padding: 0 20px;
+  transition: all 0.4s;
+
+  &.white {
+    background-color: #fff;
+    color: #212121;
+  }
 
   .link-logo {
     .logo {
       width: 183px;
       height: 65px;
       fill: #fff;
+      transition: 0.4s;
 
       &:hover {
         fill: #b3b6d6;
+      }
+
+      &.black {
+        fill: #000;
       }
     }
   }
@@ -31,11 +42,14 @@ const SHeader = styled.header`
       width: 100%;
       height: 100%;
       border-radius: 16px;
-      border: 2px solid #212121;
+      border: none;
       padding: 0 20px;
       font-size: 18px;
       font-weight: 400;
 
+      &.border-black {
+        border: 2px solid #000;
+      }
       &.hide {
         display: none;
       }
@@ -49,13 +63,18 @@ const SHeader = styled.header`
       display: flex;
       align-items: center;
       list-style-type: none;
+      color: #fff;
+
+      &.colorBlack {
+        color: #000;
+      }
 
       .nav-item {
         padding: 10px 0;
 
         &.experience {
-          border-left: 1px solid #fff;
-          border-right: 1px solid #fff;
+          border-left: 1px solid;
+          border-right: 1px solid;
           padding: 10px 15px;
           margin: 0 15px;
         }
@@ -78,6 +97,11 @@ const SHeader = styled.header`
             .icon-search {
               width: 26px;
               height: 26px;
+              stroke: #fff;
+
+              &.black {
+                stroke: #000;
+              }
             }
           }
         }
@@ -86,7 +110,7 @@ const SHeader = styled.header`
           text-decoration: none;
           font-weight: 700;
           font-size: 20px;
-          color: #fff;
+          color: inherit;
 
           &:hover {
             color: #b3b6d6;

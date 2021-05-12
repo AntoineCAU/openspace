@@ -1,0 +1,272 @@
+{
+  "sun": {
+    "name": "Sun",
+    "id": 1,
+    "rating": 1,
+    "comments": [
+      {
+        "name": "name",
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+      },
+      {
+        "name": "name",
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+      },
+      {
+        "name": "name",
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+      },
+      {
+        "name": "name",
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+      }
+    ],
+    "about": {
+      "Distance": "",
+      "weather": "",
+      "gravity": "",
+      "dimension": ""
+    },
+    "images_url": ["/img/sun.jpg"]
+  },
+  "mercury": {
+    "name": "Mercury",
+    "id": 2,
+    "rating": 5,
+    "comments": [
+      {
+        "name": "name",
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+      },
+      {
+        "name": "name",
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+      },
+      {
+        "name": "name",
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+      },
+      {
+        "name": "name",
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+      }
+    ],
+    "about": {
+      "Distance": "",
+      "weather": "",
+      "gravity": "",
+      "dimension": ""
+    },
+    "images_url": ["/img/mercury.jpg"]
+  },
+  "venus": {
+    "name": "Venus",
+    "id": 3,
+    "rating": 3,
+    "comments": [
+      {
+        "name": "name",
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+      },
+      {
+        "name": "name",
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+      },
+      {
+        "name": "name",
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+      },
+      {
+        "name": "name",
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+      }
+    ],
+    "about": {
+      "Distance": "",
+      "weather": "",
+      "gravity": "",
+      "dimension": ""
+    },
+    "images_url": ["/img/venus.jpg"]
+  },
+  "earth": {
+    "name": "Earth",
+    "id": 4,
+    "rating": 4,
+    "comments": [
+      {
+        "name": "name",
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+      },
+      {
+        "name": "name",
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+      },
+      {
+        "name": "name",
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+      },
+      {
+        "name": "name",
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+      }
+    ],
+    "about": {
+      "Distance": "",
+      "weather": "",
+      "gravity": "",
+      "dimension": ""
+    },
+    "images_url": ["/img/earth.png"]
+  },
+  "mars": {
+    "name": "Mars",
+    "id": 5,
+    "rating": 2,
+    "comments": [
+      {
+        "name": "name",
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+      },
+      {
+        "name": "name",
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+      },
+      {
+        "name": "name",
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+      },
+      {
+        "name": "name",
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+      }
+    ],
+    "about": {
+      "Distance": "",
+      "weather": "",
+      "gravity": "",
+      "dimension": ""
+    },
+    "images_url": ["/img/mars.jpg"]
+  },
+  "jupiter": {
+    "name": "Jupiter",
+    "id": 6,
+    "rating": 5,
+    "comments": [
+      {
+        "name": "name",
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+      },
+      {
+        "name": "name",
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+      },
+      {
+        "name": "name",
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+      },
+      {
+        "name": "name",
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+      }
+    ],
+    "about": {
+      "Distance": "",
+      "weather": "",
+      "gravity": "",
+      "dimension": ""
+    },
+    "images_url": ["/img/jupiter.jpg"]
+  },
+  "saturn": {
+    "name": "Saturn",
+    "id": 7,
+    "rating": 2,
+    "comments": [
+      {
+        "name": "name",
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+      },
+      {
+        "name": "name",
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+      },
+      {
+        "name": "name",
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+      },
+      {
+        "name": "name",
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+      }
+    ],
+    "about": {
+      "Distance": "",
+      "weather": "",
+      "gravity": "",
+      "dimension": ""
+    },
+    "images_url": ["/img/saturn.jpg"]
+  },
+  "uranus": {
+    "name": "Uranus",
+    "id": 8,
+    "rating": 5,
+    "comments": [
+      {
+        "name": "name",
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+      },
+      {
+        "name": "name",
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+      },
+      {
+        "name": "name",
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+      },
+      {
+        "name": "name",
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+      }
+    ],
+    "about": {
+      "Distance": "",
+      "weather": "",
+      "gravity": "",
+      "dimension": ""
+    },
+    "images_url": ["/img/uranus.jpg"]
+  },
+  "neptune": {
+    "name": "Neptune",
+    "id": 9,
+    "rating": 1,
+    "comments": [
+      {
+        "name": "name",
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+      },
+      {
+        "name": "name",
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+      },
+      {
+        "name": "name",
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+      },
+      {
+        "name": "name",
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+      }
+    ],
+    "about": {
+      "Distance": "",
+      "weather": "",
+      "gravity": "",
+      "dimension": ""
+    },
+    "images_url": ["/img/neptune.jpg"]
+  }
+}

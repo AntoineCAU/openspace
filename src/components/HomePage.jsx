@@ -1,8 +1,29 @@
+import { useEffect } from 'react';
+import PropTypes from 'prop-types';
 import SHomePage from './styled/SHomePage';
 import BestRatedPlanets from './BestRatedPlanets';
 import SpaceNews from './SpaceNews';
 
-export default function HomePage() {
+export default function HomePage({ setHeaderWhite }) {
+  const handleScroll = () => {
+    const currScroll = window.pageYOffset;
+    if (currScroll > 50) {
+      setHeaderWhite(true);
+    } else {
+      setHeaderWhite(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    setHeaderWhite(false);
+
+    return () => {
+      setHeaderWhite(true);
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
     <SHomePage>
       <div className="homepage-header">
@@ -25,3 +46,7 @@ export default function HomePage() {
     </SHomePage>
   );
 }
+
+HomePage.propTypes = {
+  setHeaderWhite: PropTypes.func.isRequired,
+};

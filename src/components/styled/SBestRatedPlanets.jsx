@@ -14,6 +14,7 @@ const SBestRatedPlanets = styled.div`
     justify-content: center;
     flex-wrap: wrap;
     width: 100%;
+
     .planet-card {
       width: 300px;
       height: 400px;
@@ -36,7 +37,7 @@ const SBestRatedPlanets = styled.div`
         color: #ffff;
         font-size: 70px;
         padding-left: 10px;
-        padding-bottom: 50px;
+        padding-bottom: 20px;
       }
 
       .discover {
@@ -45,10 +46,6 @@ const SBestRatedPlanets = styled.div`
         left: 50%;
         transform: translateX(-50%);
         color: #ffff;
-        text-decoration: none;
-      }
-      .discover:hover {
-        color: #c9c9c9;
       }
     }
   }

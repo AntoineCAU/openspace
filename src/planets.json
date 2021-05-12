@@ -26,10 +26,10 @@
       }
     ],
     "about": {
-      "Distance": "228 millions",
-      "weather": "",
-      "gravity": "",
-      "dimension": ""
+      "distance": "228 millions",
+      "weather": "~5 000 °C",
+      "gravity": "274 m/s²",
+      "diametre": "1 392 684 km"
     },
     "official_artwork": "/img/sun.jpg",
     "images_url": [
@@ -65,10 +65,10 @@
       }
     ],
     "about": {
-      "Distance": "170 millions",
-      "weather": "",
-      "gravity": "",
-      "dimension": ""
+      "distance": "170 millions",
+      "weather": "~167 °C",
+      "gravity": "3,70 m/s²",
+      "diametre": "4 879,4 km"
     },
     "official_artwork": "/img/mercury.jpg",
     "images_url": [
@@ -103,10 +103,10 @@
       }
     ],
     "about": {
-      "Distance": "120 millions",
-      "weather": "",
-      "gravity": "",
-      "dimension": ""
+      "distance": "120 millions",
+      "weather": "~464 °C",
+      "gravity": "8,87 m/s²",
+      "diametre": "12 104 km"
     },
     "official_artwork": "/img/venus.jpg",
     "images_url": [
@@ -140,10 +140,10 @@
       }
     ],
     "about": {
-      "Distance": "78 millions",
-      "weather": "",
-      "gravity": "",
-      "dimension": ""
+      "distance": "78 millions",
+      "weather": "~15 °C",
+      "gravity": "9,806 65 m/s²",
+      "diametre": "12 742 km"
     },
     "official_artwork": "/img/earth.png",
     "images_url": [
@@ -179,10 +179,10 @@
       }
     ],
     "about": {
-      "Distance": "",
-      "weather": "",
-      "gravity": "",
-      "dimension": ""
+      "distance": "0 km",
+      "weather": "~(−63) °C)",
+      "gravity": "3,711 m/s²",
+      "diametre": "6 779 km"
     },
     "official_artwork": "/img/mars.jpg",
     "images_url": [
@@ -217,10 +217,10 @@
       }
     ],
     "about": {
-      "Distance": "550 millions",
-      "weather": "",
-      "gravity": "",
-      "dimension": ""
+      "distance": "550 millions",
+      "weather": "~(−161) °C",
+      "gravity": "24,796 424 9 m/s²",
+      "diametre": "139 820 km"
     },
     "official_artwork": "/img/jupiter.jpg",
     "images_url": [
@@ -254,10 +254,10 @@
       }
     ],
     "about": {
-      "Distance": "1,199 milliards",
-      "weather": "",
-      "gravity": "",
-      "dimension": ""
+      "distance": "1,199 milliards",
+      "weather": "~(−189) °C",
+      "gravity": "10,44 m/s²",
+      "diametre": "116 460 km"
     },
     "official_artwork": "/img/saturn.jpg",
     "images_url": []
@@ -289,10 +289,10 @@
       }
     ],
     "about": {
-      "Distance": "2,641 milliards",
-      "weather": "",
-      "gravity": "",
-      "dimension": ""
+      "distance": "2,641 milliards",
+      "weather": "~(−220) °C",
+      "gravity": "8,87 m/s²",
+      "diametre": "50 724 km"
     },
     "official_artwork": "/img/uranus.jpg",
     "images_url": [
@@ -326,10 +326,10 @@
       }
     ],
     "about": {
-      "Distance": "4,269 milliards",
-      "weather": "",
-      "gravity": "",
-      "dimension": ""
+      "distance": "4,269 milliards",
+      "weather": "~(−218) °C",
+      "gravity": "11,15 m/s²",
+      "diametre": "49 244 km"
     },
     "official_artwork": "/img/neptune.jpg",
     "images_url": [

@@ -92,9 +92,47 @@ const SPlanet = styled.div`
     }
   }
 
+  .plan-about-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 60px;
+
+    .plan-trip {
+      width: 510px;
+      height: 310px;
+      box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+      border-radius: 20px;
+
+      h1 {
+        padding: 20px 30px;
+        color: #0d1e40;
+      }
+    }
+
+    .about {
+      margin: 20px 50px;
+
+      h1 {
+        padding-left: 20px;
+        border-left: 2px solid #0d1e40;
+        color: #0d1e40;
+      }
+
+      ul {
+        list-style-type: none;
+        margin: 20px;
+
+        li {
+          margin: 20px 0;
+        }
+      }
+    }
+  }
+
   .comments {
     width: 100%;
-    padding: 0 20px;
+    margin-top: 60px;
 
     h1 {
       padding-left: 20px;

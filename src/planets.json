@@ -71,7 +71,10 @@
       "dimension": ""
     },
     "official_artwork": "/img/mercury.jpg",
-    "images_url": []
+    "images_url": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8SZ37ldP3sMfA2-OqRaq7b2ZCQRpUJS-MnQ&usqp=CAU",
+      "https://www.rollingstone.fr/RS-WP-magazine/wp-content/uploads/2019/09/freddie-mercury-peter-roshler-1000x600.jpg"
+    ]
   },
   "venus": {
     "name": "Venus",
@@ -106,7 +109,9 @@
       "dimension": ""
     },
     "official_artwork": "/img/venus.jpg",
-    "images_url": []
+    "images_url": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5QCE1-fFCuvIBOhiFS0r21srVpRf6-Fcy2Q&usqp=CAU"
+    ]
   },
   "earth": {
     "name": "Earth",
@@ -141,7 +146,11 @@
       "dimension": ""
     },
     "official_artwork": "/img/earth.png",
-    "images_url": []
+    "images_url": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvsUQzNeUBH2-aAB3oVYi7WGHWeoCa8cVVnQ&usqp=CAU",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR89eJhYvFAy0QImKvY76SD5qrN9HTaenSyVg&usqp=CAU",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKzY4vhB8cqjTeSIJXLCjz_RtQ6OlYI2IUQw&usqp=CAU"
+    ]
   },
   "mars": {
     "name": "Mars",
@@ -176,7 +185,10 @@
       "dimension": ""
     },
     "official_artwork": "/img/mars.jpg",
-    "images_url": []
+    "images_url": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQytP5UYe8Ckl8LvMioI02dHwv0G9IVkdlJGA&usqp=CAU",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoM7Mz21UE5z9FNhfyngbAthi_dJoT8NCcNg&usqp=CAU"
+    ]
   },
   "jupiter": {
     "name": "Jupiter",
@@ -211,7 +223,9 @@
       "dimension": ""
     },
     "official_artwork": "/img/jupiter.jpg",
-    "images_url": []
+    "images_url": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn0Fm6cVaOmfARIqNev7228BODDW8H-VzwqQ&usqp=CAU"
+    ]
   },
   "saturn": {
     "name": "Saturn",
@@ -281,7 +295,9 @@
       "dimension": ""
     },
     "official_artwork": "/img/uranus.jpg",
-    "images_url": []
+    "images_url": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ1gVrc0VO5EsxVV0bQ5njssZfkzZ7_a6G2w&usqp=CAU"
+    ]
   },
   "neptune": {
     "name": "Neptune",
@@ -316,6 +332,8 @@
       "dimension": ""
     },
     "official_artwork": "/img/neptune.jpg",
-    "images_url": []
+    "images_url": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-bI24FXpRiEUSefB3FG8Nbe34SvYizyQL7Q&usqp=CAU"
+    ]
   }
 }

@@ -63,7 +63,7 @@ const SHomePage = styled.div`
 
     .description-container {
       width: 60vw;
-      margin: 15% 0%;
+      margin: 10% 0%;
       margin-left: auto;
       margin-right: auto;
       color: #fff;
